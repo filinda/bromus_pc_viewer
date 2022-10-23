@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,9 +16,9 @@ namespace BromusPcViewer
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+			Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new GreetingWindow());
-        }
+		}
     }
 }
